@@ -1,0 +1,14 @@
+{
+  "name": "jasmine-node-demo",
+  "private": "true",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm install && npm test",
+    "pretest": "node --version && npm --version && jasmine -v",
+    "test": "jasmine --config=spec/jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~4.3.1",
+    "jasmine": "~4.5.0"
+  }
+}

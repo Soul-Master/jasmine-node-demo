@@ -1,0 +1,13 @@
+{
+  "spec_dir": "spec",
+  "helpers": [
+    "helpers/*.cjs"
+  ],
+  "spec_files": [
+    "**/*.spec.cjs"
+  ],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "random": false
+  }
+}
